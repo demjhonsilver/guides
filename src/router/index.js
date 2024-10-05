@@ -15,7 +15,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(), // No base URL needed
+  history: createWebHashHistory('/ds-guides/'), // No base URL needed
   routes,
 });
 
