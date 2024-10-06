@@ -4,9 +4,9 @@
 
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
-        <router-link class="navbar-brand" to="/">MyApp</router-link>
+        <router-link class="navbar-brand" to="/">Guides by Demjhon</router-link>
         <button
           class="navbar-toggler"
           type="button"
@@ -23,9 +23,16 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/">Home</router-link>
             </li>
+
+
             <li class="nav-item">
-              <router-link class="nav-link" to="/about">About</router-link>
+              <router-link class="nav-link" to="/html">HTML</router-link>
             </li>
+
+            <li class="nav-item">
+              <router-link class="nav-link" to="/css">CSS</router-link>
+            </li>
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
