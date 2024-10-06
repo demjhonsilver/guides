@@ -3,10 +3,11 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 </script>
 
 <template>
-  <div class="d-flex">
+  <div class="d-flex flex-container">
     <Sidebar />
     <div class="flex-fill p-4" style="margin-left: 270px;">
       <h1>What is HTML?</h1>
+      <hr>
       <p>HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. It defines the meaning and structure of web content through a system of tags, which tell the browser how to display text, images, and multimedia.</p>
 
       <h2>Tags, Elements, Attributes</h2>

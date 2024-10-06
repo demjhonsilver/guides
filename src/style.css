@@ -117,10 +117,17 @@ h2 {
 }
 
 pre {
-  background-color: #f8f8f8;
+  background-color: #edeff0;
   padding: 10px;
   border-radius: 5px;
   overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+
+code {
+  width: 60%;
+  font-family: monospace; /* Monospaced font for code */
+  color: #d63384; /* Optional: Color for code text */
 }
 
 /* Responsive Styles */

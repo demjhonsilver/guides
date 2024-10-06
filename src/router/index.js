@@ -62,6 +62,37 @@ const routes = [
           },
 
 
+          {
+            path: 'page/6',
+            component: () => import('../components/html/Html6.vue')
+          },
+
+          {
+            path: 'page/7',
+            component: () => import('../components/html/Html7.vue')
+          },
+
+          {
+            path: 'page/8',
+            component: () => import('../components/html/Html8.vue')
+          },
+
+          {
+            path: 'page/9',
+            component: () => import('../components/html/Html9.vue')
+          },
+
+          {
+            path: 'page/10',
+            component: () => import('../components/html/Html10.vue')
+          },
+
+          {
+            path: 'page/11',
+            component: () => import('../components/html/Html11.vue')
+          },
+
+
         ]
       },
     ],
