@@ -29,9 +29,7 @@
               <router-link class="nav-link" to="/html">HTML</router-link>
             </li>
 
-            <li class="nav-item">
-              <router-link class="nav-link" to="/css">CSS</router-link>
-            </li>
+ 
 
             <li class="nav-item dropdown">
               <a
@@ -45,7 +43,7 @@
               </a>
               <ul class="dropdown-menu dropdown-menu-end"> <!-- Add this class -->
                 <li>
-                  <router-link class="dropdown-item" to="/contact">Contact</router-link>
+                  <router-link class="dropdown-item" to="/about">About</router-link>
                 </li>
                 <li>
                   <router-link class="dropdown-item" to="/services">Services</router-link>

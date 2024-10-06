@@ -78,3 +78,61 @@ button:focus-visible {
   }
 }
  */
+
+
+
+
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container {
+  margin-top: -50px;
+  width: 100%;
+}
+
+.flex-fill {
+  flex: 1;
+}
+
+.content {
+  margin-left: 270px; /* Adjust based on sidebar width */
+  padding: 15px;
+  max-width: 800px; /* Set max width for the content */
+  overflow-wrap: break-word; /* Ensure long text wraps */
+}
+
+h1, h2, h3, h4 {
+  margin-top: 20px;
+}
+
+h1 {
+  color: rgb(8, 47, 219) !important
+}
+
+h2 {
+  color: rgb(13, 143, 13) !important
+}
+
+pre {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .content {
+    margin-left: 0;
+    padding: 10px;
+    max-width: 100%; /* Allow full width on smaller screens */
+  }
+}
+

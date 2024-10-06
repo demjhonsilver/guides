@@ -38,7 +38,7 @@ const toggleCollapse = (menuId) => {
       <div class="sidebar-content">
         <ul class="nav flex-column mt-5">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">1. Introduction to HTML</router-link>
+            <router-link class="nav-link" to="/html">1. Introduction to HTML</router-link>
           </li>
 
           <li class="nav-item mt-1">
@@ -53,54 +53,33 @@ const toggleCollapse = (menuId) => {
             <div class="collapse" id="basicElementsMenu">
               <ul class="nav flex-column ms-3">
                 <li class="nav-item">
-                  <router-link class="nav-link" to="/">Text Elements</router-link>
+                  <router-link class="nav-link" to="/html/page/2-1">Text Elements</router-link>
                 </li>
                 <li class="nav-item">
-                  <router-link class="nav-link" to="/">Lists</router-link>
+                  <router-link class="nav-link" to="/html/page/2-2">Lists</router-link>
                 </li>
                 <li class="nav-item">
-                  <router-link class="nav-link" to="/">Links and Navigation</router-link>
+                  <router-link class="nav-link" to="/html/page/2-3">Links and Navigation</router-link>
                 </li>
                 <li class="nav-item">
-                  <router-link class="nav-link" to="/">Tables</router-link>
+                  <router-link class="nav-link" to="/html/page/2-4">Tables</router-link>
                 </li>
               </ul>
             </div>
           </li>
 
           <li class="nav-item mt-1">
-            <router-link class="nav-link" to="/html">3. Multimedia Elements</router-link>
+            <router-link class="nav-link" to="/html/page/3">3. Multimedia Elements</router-link>
           </li>
 
-          <li class="nav-item mt-1">
-            <button 
-              class="btn btn-link nav-link d-flex justify-content-between align-items-center" 
-              type="button" 
-              @click="toggleCollapse('formsMenu')"
-            >
-              4. HTML Forms and Input Elements
-              <span class="material-icons">expand_more</span>
-            </button>
-            <div class="collapse" id="formsMenu">
-              <ul class="nav flex-column ms-3">
-                <li class="nav-item">
-                  <router-link class="nav-link" to="/">Basic Form Structure</router-link>
-                </li>
-                <li class="nav-item">
-                  <router-link class="nav-link" to="/">Input Elements</router-link>
-                </li>
-                <li class="nav-item">
-                  <router-link class="nav-link" to="/">Input Types</router-link>
-                </li>
-                <li class="nav-item">
-                  <router-link class="nav-link" to="/">Form Validation</router-link>
-                </li>
-              </ul>
-            </div>
-          </li>
 
           <li class="nav-item mt-1">
-            <router-link class="nav-link" to="/html">5. HTML5 Semantic Elements</router-link>
+            <router-link class="nav-link" to="/html/page/4">4. HTML Forms and Input Elements</router-link>
+          </li>
+
+        
+          <li class="nav-item mt-1">
+            <router-link class="nav-link" to="/html/page/5">5. HTML5 Semantic Elements</router-link>
           </li>
 
           <li class="nav-item mt-1">
