@@ -14,7 +14,7 @@ onMounted(() => {
 <template>
   <div class="d-flex flex-container">
     <Sidebar />
-    <div class="flex-fill p-3 content">
+    <div class="flex-fill p-4 content html6-pad">
       <h1>6. HTML5 APIs and Advanced Features</h1>
       <p>HTML5 APIs enhance web applications with advanced features, improving user experience and functionality.</p>
 
@@ -199,4 +199,47 @@ if (Notification.permission === "granted") {
     margin-left: 300px;
     width: 100%;
 }
+
+.html6-pad {
+  margin-left: 270px;
+}
+
+@media (max-width: 1115px) {
+
+ .xa {
+    margin-left: 300px;
+    width: 50%;
+}
+}
+
+
+@media (max-width: 1100px) {
+  .html6-pad {
+    width: 20%;
+  margin-left: 250px;
+ }
+
+
+}
+
+
+
+@media (max-width: 1000px) {
+  .html6-pad {
+    width: 40%;
+  margin-left: 250px;
+ }
+}
+
+@media (max-width: 768px) {
+  .html6-pad {
+    width: 80%;
+  margin-left: 50px;
+ }
+ .xa {
+  margin-left: 50px;
+    width: 80%;
+}
+}
+
 </style>

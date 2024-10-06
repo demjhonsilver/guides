@@ -5,7 +5,7 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 <template>
   <div class="d-flex flex-container">
     <Sidebar />
-    <div class="flex-fill p-4 content">
+    <div class="flex-fill p-4 content html5-pad">
       <h1>5. HTML5 Semantic Elements</h1>
       <p>Semantic elements are those that clearly describe their meaning to both the browser and the developer. They help in organizing content and improving accessibility.</p>
 
@@ -92,4 +92,22 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 
 <style scoped>
 /* Styles specific to the HTML page can go here */
+.html5-pad {
+  margin-left: 270px;
+}
+
+@media (max-width: 1000px) {
+  .html5-pad {
+    width: 40%;
+  margin-left: 250px;
+ }
+}
+
+@media (max-width: 768px) {
+  .html5-pad {
+    width: 80%;
+  margin-left: 50px;
+ }
+}
+
 </style>

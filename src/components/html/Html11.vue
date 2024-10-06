@@ -5,7 +5,7 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 <template>
   <div class="d-flex flex-container">
     <Sidebar />
-    <div class="flex-fill p-4 content">
+    <div class="flex-fill p-4 content html11-pad">
       <h1>11. Browser Compatibility and Best Practices</h1>
       <hr>
 
@@ -87,7 +87,24 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
     </div>
   </div>
 </template>
-
 <style scoped>
 /* Styles specific to the HTML page can go here */
+.html-pad11 {
+  margin-left: 270px;
+}
+
+@media (max-width: 1000px) {
+  .html11-pad {
+    width: 40%;
+  margin-left: 250px;
+ }
+}
+
+@media (max-width: 768px) {
+  .html11-pad {
+    width: 80%;
+  margin-left: 50px;
+ }
+}
+
 </style>

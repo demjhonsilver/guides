@@ -130,7 +130,32 @@ code {
   color: #d63384; /* Optional: Color for code text */
 }
 
+
+
+
+
+
 /* Responsive Styles */
+
+
+@media (max-width: 1100px) {
+  pre {
+    background-color: #edeff0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+  }
+  
+  
+  code {
+    width: 60%;
+    font-family: monospace; /* Monospaced font for code */
+    color: #d63384; /* Optional: Color for code text */
+  }
+  
+}
+
+
 @media (max-width: 768px) {
   .flex-container {
     flex-direction: column;

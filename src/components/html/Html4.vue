@@ -5,7 +5,7 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 <template>
   <div class="d-flex flex-container">
     <Sidebar />
-    <div class="flex-fill p-4 content">
+    <div class="flex-fill p-4 content html4-pad">
       <h1>4. HTML Forms and Input Elements</h1>
       <p>Forms are essential for collecting user input in HTML. They allow you to create interactive web applications by sending data to a server.</p>
 
@@ -130,4 +130,22 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 
 <style scoped>
 /* Styles specific to the HTML page can go here */
+.html4-pad {
+  margin-left: 270px;
+}
+
+@media (max-width: 1000px) {
+  .html4-pad {
+    width: 40%;
+  margin-left: 250px;
+ }
+}
+
+@media (max-width: 768px) {
+  .html4-pad {
+    width: 80%;
+  margin-left: 50px;
+ }
+}
+
 </style>

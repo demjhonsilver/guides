@@ -5,7 +5,7 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 <template>
   <div class="d-flex flex-container">
     <Sidebar />
-    <div class="flex-fill p-4" style="margin-left: 270px;">
+    <div class="flex-fill p-4 html-pad">
       <h1>What is HTML?</h1>
       <hr>
       <p>HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. It defines the meaning and structure of web content through a system of tags, which tell the browser how to display text, images, and multimedia.</p>
@@ -115,4 +115,22 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 
 <style scoped>
 /* Styles specific to the HTML page can go here */
+.html-pad {
+  margin-left: 270px;
+}
+
+@media (max-width: 1000px) {
+  .html-pad {
+    width: 40%;
+  margin-left: 250px;
+ }
+}
+
+@media (max-width: 768px) {
+  .html-pad {
+    width: 80%;
+  margin-left: 50px;
+ }
+}
+
 </style>

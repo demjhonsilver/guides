@@ -5,7 +5,7 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 <template>
   <div class="d-flex flex-container">
     <Sidebar />
-    <div class="flex-fill p-4 content">
+    <div class="flex-fill p-4 content html3-pad">
       <h1>3. Multimedia Elements</h1>
       <p>This section covers different multimedia elements you can use in HTML.</p>
 
@@ -112,4 +112,23 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 
 <style scoped>
 /* Styles specific to the HTML page can go here */
+.html3-pad {
+  margin-left: 270px;
+}
+
+@media (max-width: 1000px) {
+  .html3-pad {
+    width: 40%;
+  margin-left: 250px;
+ }
+}
+
+@media (max-width: 768px) {
+  .html3-pad {
+    width: 80%;
+  margin-left: 50px;
+ }
+}
+
 </style>
+

@@ -5,7 +5,7 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 <template>
   <div class="d-flex flex-container">
     <Sidebar />
-    <div class="flex-fill p-4 content">
+    <div class="flex-fill p-4 content html10-pad">
       <h1>10. Modern HTML Features</h1>
       <hr>
 
@@ -215,4 +215,22 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 
 <style scoped>
 /* Styles specific to the HTML page can go here */
+.html10-pad {
+  margin-left: 270px;
+}
+
+@media (max-width: 1000px) {
+  .html10-pad {
+    width: 40%;
+  margin-left: 250px;
+ }
+}
+
+@media (max-width: 768px) {
+  .html10-pad {
+    width: 80%;
+  margin-left: 50px;
+ }
+}
+
 </style>

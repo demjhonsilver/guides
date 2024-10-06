@@ -29,7 +29,7 @@ const submitForm = (event) => {
 <template>
   <div class="d-flex flex-container">
     <Sidebar />
-    <div class="flex-fill p-4" style="margin-left: 270px;">
+    <div class="flex-fill p-4 content html7-pad">
       <h1>7. Document Object Model (DOM)</h1>
       <hr>
 
@@ -92,5 +92,23 @@ document.getElementById('myForm').onsubmit = function(event) {
 </template>
 
 <style scoped>
-/* Styles specific to the DOM section can go here */
+/* Styles specific to the HTML page can go here */
+.html7-pad {
+  margin-left: 270px;
+}
+
+@media (max-width: 1000px) {
+  .html7-pad {
+    width: 40%;
+  margin-left: 250px;
+ }
+}
+
+@media (max-width: 768px) {
+  .html7-pad {
+    width: 80%;
+  margin-left: 50px;
+ }
+}
+
 </style>

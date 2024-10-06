@@ -5,7 +5,7 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
 <template>
   <div class="d-flex flex-container">
     <Sidebar />
-    <div class="flex-fill p-4" style="margin-left: 270px;">
+    <div class="flex-fill p-4 content html8-pad">
       <h1>HTML Accessibility</h1>
       <hr>
 
@@ -134,4 +134,35 @@ import Sidebar from './Sidebar.vue'; // Importing Sidebar from the same folder
     margin-left: 300px;
     width: 100%;
 }
+
+.html8-pad {
+  margin-left: 270px;
+}
+
+@media (max-width: 1115px) {
+s
+.xa8 {
+   margin-left: 300px;
+   width: 50%;
+}
+}
+
+@media (max-width: 1000px) {
+  .html8-pad {
+    width: 40%;
+  margin-left: 250px;
+ }
+}
+
+@media (max-width: 768px) {
+  .html8-pad {
+    width: 80%;
+  margin-left: 50px;
+ }
+ .xa8 {
+  margin-left: 50px;
+    width: 80%;
+ }
+}
+
 </style>
